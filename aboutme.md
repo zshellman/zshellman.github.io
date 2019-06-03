@@ -1,5 +1,3 @@
-# shellman
-
 ## My name is shellman. 
 
 - I like icon man.
