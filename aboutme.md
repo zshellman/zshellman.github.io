@@ -4,4 +4,6 @@
 - I like icon man.
 - talk is cheap, show me your code.
 
-随意写写，欢迎围观。
+程序人生，个人随笔。
+
+脚踏实地，仰望星空。
