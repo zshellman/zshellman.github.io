@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
 
 我们用flask-bootstrap创建一个父页面，坐一些基本的架子搭建：
-
+<!-- {% raw %} -->
 ```html
 {% extends "bootstrap/base.html" %}
 {% block title %}Flasky{% endblock %}
@@ -119,8 +119,10 @@ if __name__ == '__main__':
 {% endblock %}
 
 ```
+<!-- {% endraw %} -->
 
 最后我们新建一个login.html，我们使用最简单的表单渲染方式`{{ wtf.quick_form(form) }}`生成页面：
+<!-- {% raw %} -->
 
 ```
 {% extends "base.html" %}
@@ -137,3 +139,4 @@ if __name__ == '__main__':
     </div>
 {% endblock %}
 ```
+<!-- {% endraw %} -->
