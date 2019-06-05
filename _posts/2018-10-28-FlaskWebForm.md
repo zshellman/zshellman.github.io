@@ -120,8 +120,9 @@ if __name__ == '__main__':
 
 ```
 <!-- {% endraw %} -->
-
+<!-- {% raw %} -->
 最后我们新建一个login.html，我们使用最简单的表单渲染方式`{{ wtf.quick_form(form) }}`生成页面：
+<!-- {% endraw %} -->
 <!-- {% raw %} -->
 
 ```
