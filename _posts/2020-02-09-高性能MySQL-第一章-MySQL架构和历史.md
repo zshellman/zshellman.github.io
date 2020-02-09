@@ -20,20 +20,9 @@ MySQL的逻辑架构
 
 MySQL中一条语句执行顺序
 
-```flow
-st=>start: 客户端
-op=>operation: 连接器
-cond=>condition: 是否在缓存
-sub=>operation: 分析器
-sub2=>operation: 优化器
-sub3=>operation: 执行器
-e=>end
-e2=>end: 存储引擎
+![](..\img\mysql_query.PNG)
 
-st->op->cond
-cond(yes)->op
-cond(no)->sub->sub2->sub3->e2
-```
+
 
 
 MySQL对于并发控制采用锁机制来处理，读锁，写锁。锁的粒度有表锁和行锁。
