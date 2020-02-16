@@ -1,3 +1,9 @@
+---
+layout: page
+title: 高性能MySQL 第四章 Schema与数据类型优化
+mermaid: false
+---
+
 # 第四章 Schema与数据类型优化
 
 数据类型的选择和优化
